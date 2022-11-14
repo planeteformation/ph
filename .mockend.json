@@ -7,7 +7,7 @@
   },
   "User": {
     "name": { "string": {} },
-    "firstname": { "regexp": "[A-Z][a-z]{5,10}" },
+    [ { "firstname": "Alain" }, { "firstname": "Martine" }],    
     "username": { "string": {} },
     "zip": {"regexp": "[0-9]{4}[0]{1}"}
   }
