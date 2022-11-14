@@ -5,10 +5,8 @@
       "hasMany": "Comment"
     }
   },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
+  "User": {
+    "name": { "string": {} },
+    "username": { "string": {} }
   }
 }
