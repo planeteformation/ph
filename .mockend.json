@@ -7,7 +7,6 @@
   },
   "User": {
     "name": { "string": {} },
-    "username": { "string": {} },
-    "zip": { "regexp": "[0-9]{5}"}
+    "username": { "string": {} }
   }
 }
