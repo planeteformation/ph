@@ -8,8 +8,6 @@
   "User": {
     "name": { "string": {} },
     "username": { "string": {} },
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    }
+    "zip": {"regexp": "[0-9]{5}"}
   }
 }
