@@ -9,6 +9,10 @@
     "name": { "string": {} },  
     "firstname": {"string": ["Alain", "Martine", "Jean", "Aline" ]},        
     "username": { "string": {} },
-    "zip": {"regexp": "[0-9]{4}[0]{1}"}
+    "zip": {"regexp": "[0-9]{4}[0]{1}"},
+    "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
+    "posts": {
+        "hasMany": "Post" 
+    }
   }
 }
